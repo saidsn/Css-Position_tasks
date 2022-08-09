@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: p130;
+    src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+
+.main {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(to right, orange, red);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main .blog {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 120px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.main .blog .content {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    font-size: 20px;
+    font-family: p130;
+}
+
+.main .blog .content span,
+p {
+    color: #848196;
+}
+
+.main .blog .content h2 {
+    padding: 25px 0 25px;
+}
+
+.main .blog .content button {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, orange, red);
+    margin-top: 40px;
+    border: none;
+}
+
+.main .blog .content button:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.main .blog .content button span {
+    font-size: 20px;
+    color: white;
+    font-family: p130;
+}
+
+.main .blog .ring-up {
+    width: 12px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #D0D3D9;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+
+.main .blog .column {
+    width: 12px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #FC3838;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+}
+
+.main .blog .ring-down {
+    width: 12px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #D0D3D9;
+    position: absolute;
+    right: 20px;
+    top: 263px;
+}
+
+.main .blog .square {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, orange, red);
+    position: absolute;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #FF7400;
+    left: -60px;
+    top: 80px;
+}
